@@ -51,3 +51,4 @@ public class BookStayApp {
         reportService.generateReport(history.getReservations());
     }
 }
+
