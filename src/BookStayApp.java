@@ -10,7 +10,7 @@ class BookingRequest {
     }
 }
 
-public class BookApp {
+public class BookStayApp {
 
     // Queue for FIFO booking processing
     private Queue<BookingRequest> bookingQueue = new LinkedList<>();
@@ -65,7 +65,7 @@ public class BookApp {
 
     public static void main(String[] args) {
 
-        BookApp service = new BookApp();
+        BookStayApp service = new BookStayApp();
 
         service.addBooking("Abhi", "Single");
         service.addBooking("Subha", "Single");
